@@ -34096,7 +34096,7 @@
 		<monster name="Wolf" x="1" y="0" z="7" spawntime="90" />
 	</monster>
 	<monster centerx="33300" centery="31815" centerz="7" radius="1">
-		<monster name="Rabbit" x="1" y="0" z="7" spawntime="90" />
+		<monster name="Rabbit" x="-1" y="-1" z="7" spawntime="90" />
 	</monster>
 	<monster centerx="32259" centery="31816" centerz="7" radius="3">
 		<monster name="Deer" x="0" y="-2" z="7" spawntime="90" />
@@ -108091,6 +108091,21 @@
 	<monster centerx="33269" centery="31855" centerz="10" radius="2">
 		<monster name="Carrion Worm" x="0" y="-1" z="10" spawntime="90" />
 	</monster>
+	<monster centerx="33309" centery="31855" centerz="10" radius="1">
+		<monster name="Diamond Servant Replica" x="1" y="1" z="10" spawntime="30" />
+	</monster>
+	<monster centerx="33306" centery="31856" centerz="10" radius="1">
+		<monster name="Golden Servant Replica" x="1" y="-1" z="10" spawntime="30" />
+	</monster>
+	<monster centerx="33319" centery="31856" centerz="10" radius="1">
+		<monster name="Golden Servant Replica" x="0" y="0" z="10" spawntime="30" />
+	</monster>
+	<monster centerx="33326" centery="31856" centerz="10" radius="1">
+		<monster name="Diamond Servant Replica" x="0" y="0" z="10" spawntime="30" />
+	</monster>
+	<monster centerx="33334" centery="31856" centerz="10" radius="1">
+		<monster name="Golden Servant Replica" x="1" y="-1" z="10" spawntime="30" />
+	</monster>
 	<monster centerx="32129" centery="31857" centerz="10" radius="1">
 		<monster name="Crazed Dwarf" x="0" y="0" z="10" spawntime="90" />
 	</monster>
@@ -108194,8 +108209,20 @@
 	<monster centerx="33277" centery="31861" centerz="10" radius="1">
 		<monster name="Carrion Worm" x="0" y="1" z="10" spawntime="90" />
 	</monster>
+	<monster centerx="33306" centery="31861" centerz="10" radius="1">
+		<monster name="Golden Servant Replica" x="0" y="0" z="10" spawntime="30" />
+	</monster>
+	<monster centerx="33319" centery="31861" centerz="10" radius="1">
+		<monster name="Diamond Servant Replica" x="-1" y="-1" z="10" spawntime="30" />
+	</monster>
+	<monster centerx="33336" centery="31861" centerz="10" radius="1">
+		<monster name="Golden Servant Replica" x="0" y="1" z="10" spawntime="30" />
+	</monster>
 	<monster centerx="33259" centery="31862" centerz="10" radius="2">
 		<monster name="Carrion Worm" x="0" y="-1" z="10" spawntime="90" />
+	</monster>
+	<monster centerx="33325" centery="31862" centerz="10" radius="1">
+		<monster name="Golden Servant Replica" x="1" y="1" z="10" spawntime="30" />
 	</monster>
 	<monster centerx="32033" centery="31863" centerz="10" radius="1">
 		<monster name="Mountain Troll" x="0" y="0" z="10" spawntime="90" />
@@ -108273,6 +108300,9 @@
 	<monster centerx="33269" centery="31867" centerz="10" radius="1">
 		<monster name="Rotworm" x="0" y="1" z="10" spawntime="90" />
 	</monster>
+	<monster centerx="33306" centery="31867" centerz="10" radius="1">
+		<monster name="Diamond Servant Replica" x="1" y="0" z="10" spawntime="30" />
+	</monster>
 	<monster centerx="33547" centery="31867" centerz="10" radius="3">
 		<monster name="Brimstone Bug" x="2" y="1" z="10" spawntime="60" />
 	</monster>
@@ -108308,8 +108338,20 @@
 	<monster centerx="32234" centery="31870" centerz="10" radius="3">
 		<monster name="Skeleton" x="0" y="-2" z="10" spawntime="90" />
 	</monster>
+	<monster centerx="33317" centery="31870" centerz="10" radius="1">
+		<monster name="Golden Servant Replica" x="0" y="0" z="10" spawntime="30" />
+	</monster>
+	<monster centerx="33335" centery="31870" centerz="10" radius="1">
+		<monster name="Diamond Servant Replica" x="1" y="0" z="10" spawntime="30" />
+	</monster>
 	<monster centerx="33260" centery="31871" centerz="10" radius="1">
 		<monster name="Rotworm" x="1" y="0" z="10" spawntime="90" />
+	</monster>
+	<monster centerx="33310" centery="31871" centerz="10" radius="1">
+		<monster name="Diamond Servant Replica" x="0" y="0" z="10" spawntime="30" />
+	</monster>
+	<monster centerx="33343" centery="31871" centerz="10" radius="1">
+		<monster name="Diamond Servant Replica" x="0" y="0" z="10" spawntime="30" />
 	</monster>
 	<monster centerx="32739" centery="31872" centerz="10" radius="5">
 		<monster name="Witch" x="0" y="0" z="10" spawntime="60" />
@@ -108325,11 +108367,21 @@
 	<monster centerx="33280" centery="31872" centerz="10" radius="1">
 		<monster name="Carrion Worm" x="-1" y="-1" z="10" spawntime="90" />
 	</monster>
+	<monster centerx="33337" centery="31872" centerz="10" radius="1">
+		<monster name="Golden Servant Replica" x="0" y="-1" z="10" spawntime="30" />
+		<monster name="Diamond Servant Replica" x="0" y="0" z="10" spawntime="30" />
+	</monster>
 	<monster centerx="33552" centery="31872" centerz="10" radius="3">
 		<monster name="Glooth Blob" x="-1" y="-1" z="10" spawntime="60" />
 	</monster>
 	<monster centerx="32637" centery="31873" centerz="10" radius="1">
 		<monster name="Rat" x="1" y="0" z="10" spawntime="90" />
+	</monster>
+	<monster centerx="33327" centery="31873" centerz="10" radius="1">
+		<monster name="Diamond Servant Replica" x="-1" y="0" z="10" spawntime="30" />
+	</monster>
+	<monster centerx="33336" centery="31873" centerz="10" radius="1">
+		<monster name="Diamond Servant Replica" x="0" y="1" z="10" spawntime="30" />
 	</monster>
 	<monster centerx="31979" centery="31874" centerz="10" radius="3">
 		<monster name="Minotaur Bruiser" x="3" y="-2" z="10" spawntime="90" />
@@ -108391,6 +108443,9 @@
 		<monster name="Orc Cult Inquisitor" x="-3" y="3" z="10" spawntime="60" />
 		<monster name="Orc Cult Minion" x="-1" y="3" z="10" spawntime="60" />
 	</monster>
+	<monster centerx="33319" centery="31874" centerz="10" radius="1">
+		<monster name="Golden Servant Replica" x="-1" y="1" z="10" spawntime="30" />
+	</monster>
 	<monster centerx="33540" centery="31874" centerz="10" radius="3">
 		<monster name="Wiggler" x="-1" y="-2" z="10" spawntime="60" />
 		<monster name="Massive Earth Elemental" x="0" y="-2" z="10" spawntime="60" />
@@ -108405,6 +108460,10 @@
 	<monster centerx="32012" centery="31875" centerz="10" radius="1">
 		<monster name="Troll-Trained Salamander" x="0" y="0" z="10" spawntime="90" />
 	</monster>
+	<monster centerx="33331" centery="31875" centerz="10" radius="1">
+		<monster name="Serpent Spawn" x="-1" y="-1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33336" centery="31875" centerz="10" radius="1" />
 	<monster centerx="32015" centery="31876" centerz="10" radius="1">
 		<monster name="Troll-Trained Salamander" x="0" y="0" z="10" spawntime="90" />
 	</monster>
@@ -108418,6 +108477,12 @@
 		<monster name="Rotworm" x="1" y="2" z="10" spawntime="90" />
 		<monster name="Rotworm" x="-2" y="3" z="10" spawntime="90" />
 	</monster>
+	<monster centerx="33307" centery="31877" centerz="10" radius="1">
+		<monster name="Golden Servant Replica" x="0" y="-1" z="10" spawntime="30" />
+	</monster>
+	<monster centerx="33327" centery="31878" centerz="10" radius="1">
+		<monster name="Serpent Spawn" x="-1" y="-1" z="10" spawntime="60" />
+	</monster>
 	<monster centerx="32022" centery="31879" centerz="10" radius="1">
 		<monster name="Mountain Troll" x="0" y="0" z="10" spawntime="90" />
 	</monster>
@@ -108428,6 +108493,9 @@
 	</monster>
 	<monster centerx="32046" centery="31880" centerz="10" radius="1">
 		<monster name="Mountain Troll" x="0" y="0" z="10" spawntime="90" />
+	</monster>
+	<monster centerx="33331" centery="31880" centerz="10" radius="1">
+		<monster name="Serpent Spawn" x="-1" y="0" z="10" spawntime="60" />
 	</monster>
 	<monster centerx="31986" centery="31881" centerz="10" radius="3">
 		<monster name="Cave Rat" x="1" y="-3" z="10" spawntime="90" />
@@ -108476,6 +108544,12 @@
 	</monster>
 	<monster centerx="33155" centery="31881" centerz="10" radius="3">
 		<monster name="Orc Cult Inquisitor" x="-2" y="-1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33306" centery="31881" centerz="10" radius="1">
+		<monster name="Golden Servant Replica" x="-1" y="0" z="10" spawntime="30" />
+	</monster>
+	<monster centerx="33336" centery="31881" centerz="10" radius="1">
+		<monster name="Diamond Servant Replica" x="-1" y="0" z="10" spawntime="30" />
 	</monster>
 	<monster centerx="33456" centery="31881" centerz="10" radius="3">
 		<monster name="Hydra" x="-1" y="3" z="10" spawntime="60" />
@@ -108538,8 +108612,17 @@
 	<monster centerx="33065" centery="31883" centerz="10" radius="1">
 		<monster name="Hideous Fungus" x="0" y="0" z="10" spawntime="90" />
 	</monster>
+	<monster centerx="33318" centery="31883" centerz="10" radius="1">
+		<monster name="Diamond Servant Replica" x="1" y="-1" z="10" spawntime="30" />
+	</monster>
 	<monster centerx="33251" centery="31885" centerz="10" radius="1">
 		<monster name="Carrion Worm" x="1" y="0" z="10" spawntime="90" />
+	</monster>
+	<monster centerx="33329" centery="31885" centerz="10" radius="1">
+		<monster name="Golden Servant Replica" x="-1" y="1" z="10" spawntime="30" />
+	</monster>
+	<monster centerx="33336" centery="31885" centerz="10" radius="1">
+		<monster name="Golden Servant Replica" x="-1" y="-1" z="10" spawntime="30" />
 	</monster>
 	<monster centerx="32667" centery="31886" centerz="10" radius="1">
 		<monster name="Poison Spider" x="1" y="1" z="10" spawntime="90" />
@@ -108547,11 +108630,20 @@
 	<monster centerx="33030" centery="31886" centerz="10" radius="1">
 		<monster name="Hideous Fungus" x="1" y="0" z="10" spawntime="90" />
 	</monster>
+	<monster centerx="33324" centery="31886" centerz="10" radius="1">
+		<monster name="Serpent Spawn" x="0" y="1" z="10" spawntime="60" />
+	</monster>
 	<monster centerx="32744" centery="31887" centerz="10" radius="5">
 		<monster name="Toad" x="0" y="0" z="10" spawntime="60" />
 	</monster>
 	<monster centerx="33063" centery="31887" centerz="10" radius="1">
 		<monster name="Hideous Fungus" x="0" y="1" z="10" spawntime="90" />
+	</monster>
+	<monster centerx="33306" centery="31887" centerz="10" radius="1">
+		<monster name="Diamond Servant Replica" x="1" y="-1" z="10" spawntime="30" />
+	</monster>
+	<monster centerx="33318" centery="31887" centerz="10" radius="1">
+		<monster name="Golden Servant Replica" x="0" y="0" z="10" spawntime="30" />
 	</monster>
 	<monster centerx="32014" centery="31888" centerz="10" radius="3">
 		<monster name="Mountain Troll" x="3" y="-1" z="10" spawntime="90" />
@@ -108646,9 +108738,17 @@
 	<monster centerx="33067" centery="31889" centerz="10" radius="1">
 		<monster name="Humongous Fungus" x="0" y="-1" z="10" spawntime="90" />
 	</monster>
+	<monster centerx="33336" centery="31889" centerz="10" radius="1">
+		<monster name="Golden Servant Replica" x="1" y="0" z="10" spawntime="30" />
+	</monster>
 	<monster centerx="33562" centery="31889" centerz="10" radius="3">
 		<monster name="Rot Elemental" x="-1" y="0" z="10" spawntime="60" />
 		<monster name="Bog Raider" x="2" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33306" centery="31890" centerz="10" radius="3">
+		<monster name="Golden Servant Replica" x="2" y="-1" z="10" spawntime="30" />
+		<monster name="Diamond Servant Replica" x="-1" y="0" z="10" spawntime="30" />
+		<monster name="Diamond Servant Replica" x="2" y="1" z="10" spawntime="30" />
 	</monster>
 	<monster centerx="33573" centery="31890" centerz="10" radius="3">
 		<monster name="Massive Earth Elemental" x="0" y="0" z="10" spawntime="60" />
@@ -108663,6 +108763,26 @@
 	<monster centerx="33069" centery="31891" centerz="10" radius="1">
 		<monster name="Humorless Fungus" x="1" y="-1" z="10" spawntime="90" />
 		<monster name="Hideous Fungus" x="0" y="0" z="10" spawntime="90" />
+	</monster>
+	<monster centerx="33310" centery="31891" centerz="10" radius="1">
+		<monster name="Golden Servant Replica" x="1" y="0" z="10" spawntime="30" />
+	</monster>
+	<monster centerx="33316" centery="31891" centerz="10" radius="1">
+		<monster name="Diamond Servant Replica" x="-1" y="1" z="10" spawntime="30" />
+	</monster>
+	<monster centerx="33321" centery="31891" centerz="10" radius="1">
+		<monster name="Golden Servant Replica" x="0" y="0" z="10" spawntime="30" />
+	</monster>
+	<monster centerx="33325" centery="31891" centerz="10" radius="1">
+		<monster name="Diamond Servant Replica" x="0" y="1" z="10" spawntime="30" />
+	</monster>
+	<monster centerx="33328" centery="31891" centerz="10" radius="1">
+		<monster name="Golden Servant Replica" x="1" y="0" z="10" spawntime="30" />
+		<monster name="Golden Servant Replica" x="0" y="1" z="10" spawntime="30" />
+	</monster>
+	<monster centerx="33330" centery="31891" centerz="10" radius="1" />
+	<monster centerx="33335" centery="31891" centerz="10" radius="1">
+		<monster name="Diamond Servant Replica" x="-1" y="1" z="10" spawntime="30" />
 	</monster>
 	<monster centerx="32756" centery="31892" centerz="10" radius="5">
 		<monster name="Tainted Soul" x="0" y="0" z="10" spawntime="60" />
