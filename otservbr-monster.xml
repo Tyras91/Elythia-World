@@ -10577,12 +10577,21 @@
 	<monster centerx="33211" centery="31762" centerz="5" radius="3">
 		<monster name="Wyvern" x="3" y="1" z="5" spawntime="60" />
 	</monster>
+	<monster centerx="33198" centery="31764" centerz="5" radius="1">
+		<monster name="Wyvern" x="1" y="-1" z="5" spawntime="90" />
+	</monster>
+	<monster centerx="33220" centery="31764" centerz="5" radius="1">
+		<monster name="Wyvern" x="1" y="-1" z="5" spawntime="90" />
+	</monster>
 	<monster centerx="33233" centery="31764" centerz="5" radius="1">
 		<monster name="Wyvern" x="0" y="1" z="5" spawntime="90" />
 	</monster>
 	<monster centerx="32878" centery="31766" centerz="5" radius="2">
 		<monster name="Orc Warrior" x="-1" y="1" z="5" spawntime="90" />
 		<monster name="Orc Warrior" x="1" y="1" z="5" spawntime="90" />
+	</monster>
+	<monster centerx="33228" centery="31768" centerz="5" radius="1">
+		<monster name="Wyvern" x="1" y="-1" z="5" spawntime="90" />
 	</monster>
 	<monster centerx="32589" centery="31769" centerz="5" radius="1">
 		<monster name="Goblin Scavenger" x="1" y="0" z="5" spawntime="90" />
@@ -10614,7 +10623,7 @@
 		<monster name="Orc Warrior" x="1" y="-2" z="5" spawntime="90" />
 		<monster name="Orc Leader" x="-2" y="0" z="5" spawntime="90" />
 	</monster>
-	<monster centerx="33233" centery="31773" centerz="5" radius="1">
+	<monster centerx="33230" centery="31774" centerz="5" radius="1">
 		<monster name="Wyvern" x="1" y="-1" z="5" spawntime="90" />
 	</monster>
 	<monster centerx="32878" centery="31775" centerz="5" radius="2">
@@ -75021,8 +75030,15 @@
 		<monster name="Tortoise" x="-1" y="-2" z="8" spawntime="90" />
 		<monster name="Toad" x="1" y="2" z="8" spawntime="90" />
 	</monster>
-	<monster centerx="32722" centery="32971" centerz="8" radius="1">
-		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="60" />
+	<monster centerx="32721" centery="32971" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32723" centery="32971" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="-1" z="8" spawntime="15" />
+		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32725" centery="32971" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32368" centery="32972" centerz="8" radius="2">
 		<monster name="Thornback Tortoise" x="-1" y="0" z="8" spawntime="90" />
@@ -75031,23 +75047,20 @@
 		<monster name="Toad" x="-2" y="-1" z="8" spawntime="90" />
 		<monster name="Toad" x="2" y="1" z="8" spawntime="90" />
 	</monster>
-	<monster centerx="32716" centery="32972" centerz="8" radius="1">
-		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="60" />
+	<monster centerx="32715" centery="32972" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32725" centery="32972" centerz="8" radius="1">
-		<monster name="Water Elemental" x="1" y="-1" z="8" spawntime="60" />
+	<monster centerx="32716" centery="32972" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="-1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32724" centery="32972" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32728" centery="32972" centerz="8" radius="1">
-		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="60" />
+		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32743" centery="32972" centerz="8" radius="1">
-		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="60" />
-	</monster>
-	<monster centerx="32765" centery="32972" centerz="8" radius="1">
-		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="60" />
-	</monster>
-	<monster centerx="32809" centery="32972" centerz="8" radius="1">
-		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="60" />
+		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32105" centery="32973" centerz="8" radius="3">
 		<monster name="Scarab" x="1" y="1" z="8" spawntime="90" />
@@ -75079,20 +75092,33 @@
 	<monster centerx="32511" centery="32973" centerz="8" radius="2">
 		<monster name="Tortoise" x="0" y="1" z="8" spawntime="90" />
 	</monster>
-	<monster centerx="32713" centery="32973" centerz="8" radius="1">
-		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="60" />
+	<monster centerx="32714" centery="32973" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="0" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32725" centery="32973" centerz="8" radius="1" />
+	<monster centerx="32743" centery="32973" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32626" centery="32974" centerz="8" radius="1">
 		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="60" />
 	</monster>
-	<monster centerx="32747" centery="32974" centerz="8" radius="1">
-		<monster name="Water Elemental" x="-1" y="-1" z="8" spawntime="60" />
+	<monster centerx="32727" centery="32974" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="1" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32762" centery="32974" centerz="8" radius="1">
-		<monster name="Water Elemental" x="0" y="-1" z="8" spawntime="60" />
+	<monster centerx="32745" centery="32974" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="1" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32807" centery="32974" centerz="8" radius="1">
-		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="60" />
+	<monster centerx="32746" centery="32974" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32766" centery="32974" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32808" centery="32974" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32809" centery="32974" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="-1" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32427" centery="32975" centerz="8" radius="3">
 		<monster name="Tortoise" x="0" y="-1" z="8" spawntime="90" />
@@ -75105,17 +75131,42 @@
 	<monster centerx="32686" centery="32975" centerz="8" radius="1">
 		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="60" />
 	</monster>
-	<monster centerx="32749" centery="32975" centerz="8" radius="1">
-		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="60" />
+	<monster centerx="32713" centery="32975" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="0" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32760" centery="32976" centerz="8" radius="1">
-		<monster name="Water Elemental" x="-1" y="0" z="8" spawntime="60" />
+	<monster centerx="32716" centery="32975" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="1" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32805" centery="32976" centerz="8" radius="1">
-		<monster name="Water Elemental" x="-1" y="0" z="8" spawntime="60" />
+	<monster centerx="32746" centery="32975" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32763" centery="32975" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="-1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32809" centery="32975" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32811" centery="32975" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32759" centery="32976" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="-1" z="8" spawntime="15" />
+		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32806" centery="32976" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="1" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32623" centery="32977" centerz="8" radius="1">
 		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32770" centery="32977" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32805" centery="32977" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32810" centery="32977" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32412" centery="32978" centerz="8" radius="5">
 		<monster name="Toad" x="1" y="-4" z="8" spawntime="90" />
@@ -75137,23 +75188,21 @@
 	<monster centerx="32676" centery="32978" centerz="8" radius="1">
 		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="60" />
 	</monster>
-	<monster centerx="32771" centery="32978" centerz="8" radius="1">
-		<monster name="Water Elemental" x="-1" y="0" z="8" spawntime="60" />
+	<monster centerx="32760" centery="32978" centerz="8" radius="1" />
+	<monster centerx="32763" centery="32978" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="-1" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32811" centery="32978" centerz="8" radius="1">
-		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="60" />
+	<monster centerx="32765" centery="32978" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="-1" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32714" centery="32979" centerz="8" radius="1">
-		<monster name="Water Elemental" x="0" y="-1" z="8" spawntime="60" />
+	<monster centerx="32803" centery="32978" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32766" centery="32979" centerz="8" radius="1">
-		<monster name="Water Elemental" x="1" y="-1" z="8" spawntime="60" />
+	<monster centerx="32808" centery="32978" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32774" centery="32979" centerz="8" radius="1">
-		<monster name="Water Elemental" x="0" y="-1" z="8" spawntime="60" />
-	</monster>
-	<monster centerx="32783" centery="32979" centerz="8" radius="1">
-		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="60" />
+	<monster centerx="32765" centery="32979" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="1" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32112" centery="32980" centerz="8" radius="3">
 		<monster name="Ghoul" x="2" y="-1" z="8" spawntime="90" />
@@ -75180,17 +75229,32 @@
 	<monster centerx="32678" centery="32980" centerz="8" radius="1">
 		<monster name="Quara Mantassin Scout" x="0" y="0" z="8" spawntime="60" />
 	</monster>
-	<monster centerx="32719" centery="32980" centerz="8" radius="1">
-		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="60" />
+	<monster centerx="32714" centery="32980" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="0" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32764" centery="32980" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="0" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32770" centery="32980" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="-1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32811" centery="32980" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32688" centery="32981" centerz="8" radius="1">
 		<monster name="Quara Hydromancer Scout" x="0" y="0" z="8" spawntime="60" />
 	</monster>
-	<monster centerx="32770" centery="32981" centerz="8" radius="1">
-		<monster name="Water Elemental" x="0" y="-1" z="8" spawntime="60" />
+	<monster centerx="32713" centery="32981" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32799" centery="32981" centerz="8" radius="1">
-		<monster name="Water Elemental" x="0" y="-1" z="8" spawntime="60" />
+	<monster centerx="32716" centery="32981" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32721" centery="32981" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32765" centery="32981" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="1" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32400" centery="32982" centerz="8" radius="4">
 		<monster name="Tortoise" x="3" y="-4" z="8" spawntime="90" />
@@ -75203,17 +75267,14 @@
 		<monster name="Tortoise" x="3" y="0" z="8" spawntime="90" />
 		<monster name="Tortoise" x="0" y="3" z="8" spawntime="90" />
 	</monster>
-	<monster centerx="32729" centery="32982" centerz="8" radius="1">
-		<monster name="Water Elemental" x="-1" y="0" z="8" spawntime="60" />
+	<monster centerx="32727" centery="32982" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="-1" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32759" centery="32982" centerz="8" radius="1">
-		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="60" />
+	<monster centerx="32786" centery="32982" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="0" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32784" centery="32982" centerz="8" radius="1">
-		<monster name="Water Elemental" x="-1" y="-1" z="8" spawntime="60" />
-	</monster>
-	<monster centerx="32787" centery="32982" centerz="8" radius="1">
-		<monster name="Water Elemental" x="-1" y="-1" z="8" spawntime="60" />
+	<monster centerx="32796" centery="32982" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="0" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32512" centery="32983" centerz="8" radius="2">
 		<monster name="Tortoise" x="1" y="0" z="8" spawntime="90" />
@@ -75224,8 +75285,20 @@
 	<monster centerx="32605" centery="32983" centerz="8" radius="1">
 		<monster name="Quara Hydromancer Scout" x="0" y="0" z="8" spawntime="60" />
 	</monster>
-	<monster centerx="32810" centery="32983" centerz="8" radius="1">
-		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="60" />
+	<monster centerx="32714" centery="32983" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="0" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32717" centery="32983" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="0" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32764" centery="32983" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="-1" z="8" spawntime="15" />
+		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32765" centery="32983" centerz="8" radius="1" />
+	<monster centerx="32788" centery="32983" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="15" />
+		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32495" centery="32984" centerz="8" radius="4">
 		<monster name="Tortoise" x="-2" y="-3" z="8" spawntime="90" />
@@ -75233,26 +75306,36 @@
 		<monster name="Tortoise" x="3" y="2" z="8" spawntime="90" />
 		<monster name="Tortoise" x="-2" y="3" z="8" spawntime="90" />
 	</monster>
-	<monster centerx="32716" centery="32984" centerz="8" radius="1">
-		<monster name="Water Elemental" x="-1" y="0" z="8" spawntime="60" />
+	<monster centerx="32758" centery="32984" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="-1" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32732" centery="32984" centerz="8" radius="1">
-		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="60" />
+	<monster centerx="32765" centery="32984" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32762" centery="32984" centerz="8" radius="1">
-		<monster name="Water Elemental" x="0" y="-1" z="8" spawntime="60" />
-	</monster>
+	<monster centerx="32790" centery="32984" centerz="8" radius="1" />
 	<monster centerx="32613" centery="32985" centerz="8" radius="1">
 		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="60" />
 	</monster>
 	<monster centerx="32684" centery="32985" centerz="8" radius="1">
 		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="60" />
 	</monster>
-	<monster centerx="32758" centery="32985" centerz="8" radius="1">
-		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="60" />
+	<monster centerx="32732" centery="32985" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="-1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32734" centery="32986" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32758" centery="32986" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="0" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32760" centery="32986" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32793" centery="32986" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32809" centery="32986" centerz="8" radius="1">
-		<monster name="Water Elemental" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32133" centery="32987" centerz="8" radius="3">
 		<monster name="Scarab" x="1" y="-1" z="8" spawntime="90" />
@@ -75265,52 +75348,71 @@
 		<monster name="Ghoul" x="-2" y="-1" z="8" spawntime="90" />
 		<monster name="Ghoul" x="-1" y="-1" z="8" spawntime="90" />
 	</monster>
-	<monster centerx="32792" centery="32987" centerz="8" radius="1">
-		<monster name="Water Elemental" x="-1" y="1" z="8" spawntime="60" />
-	</monster>
-	<monster centerx="32794" centery="32987" centerz="8" radius="1">
-		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="60" />
-	</monster>
 	<monster centerx="32659" centery="32988" centerz="8" radius="1">
 		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="60" />
 	</monster>
+	<monster centerx="32716" centery="32988" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="15" />
+		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32756" centery="32988" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="-1" z="8" spawntime="15" />
+		<monster name="Water Elemental" x="-1" y="1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32791" centery="32988" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="15" />
+		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32808" centery="32988" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32736" centery="32989" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32754" centery="32989" centerz="8" radius="1" />
 	<monster centerx="32518" centery="32990" centerz="8" radius="3">
 		<monster name="Toad" x="-2" y="-2" z="8" spawntime="90" />
 		<monster name="Thornback Tortoise" x="2" y="-1" z="8" spawntime="90" />
 		<monster name="Toad" x="1" y="2" z="8" spawntime="90" />
 	</monster>
-	<monster centerx="32737" centery="32990" centerz="8" radius="1">
-		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="60" />
+	<monster centerx="32718" centery="32990" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32794" centery="32990" centerz="8" radius="1">
-		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="60" />
+	<monster centerx="32793" centery="32990" centerz="8" radius="1" />
+	<monster centerx="32807" centery="32990" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="0" z="8" spawntime="15" />
+		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32719" centery="32991" centerz="8" radius="1">
-		<monster name="Water Elemental" x="-1" y="1" z="8" spawntime="60" />
+	<monster centerx="32718" centery="32991" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32740" centery="32991" centerz="8" radius="1">
-		<monster name="Water Elemental" x="1" y="-1" z="8" spawntime="60" />
+	<monster centerx="32719" centery="32991" centerz="8" radius="1" />
+	<monster centerx="32794" centery="32991" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="-1" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32743" centery="32991" centerz="8" radius="1">
-		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="60" />
+	<monster centerx="32795" centery="32992" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="1" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32752" centery="32993" centerz="8" radius="1">
-		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="60" />
+	<monster centerx="32807" centery="32992" centerz="8" radius="1" />
+	<monster centerx="32744" centery="32993" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="-1" z="8" spawntime="15" />
+		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32795" centery="32993" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32805" centery="32993" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="-1" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32154" centery="32994" centerz="8" radius="3">
 		<monster name="Ghoul" x="-2" y="1" z="8" spawntime="90" />
 	</monster>
-	<monster centerx="32720" centery="32994" centerz="8" radius="1">
-		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="60" />
+	<monster centerx="32742" centery="32995" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32807" centery="32994" centerz="8" radius="1">
-		<monster name="Water Elemental" x="-1" y="-1" z="8" spawntime="60" />
-	</monster>
-	<monster centerx="32740" centery="32995" centerz="8" radius="1">
-		<monster name="Water Elemental" x="0" y="-1" z="8" spawntime="60" />
-	</monster>
-	<monster centerx="32745" centery="32995" centerz="8" radius="1">
-		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="60" />
+	<monster centerx="32745" centery="32995" centerz="8" radius="1" />
+	<monster centerx="32748" centery="32995" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32532" centery="32996" centerz="8" radius="2">
 		<monster name="Thornback Tortoise" x="2" y="-1" z="8" spawntime="90" />
@@ -75319,8 +75421,8 @@
 	<monster centerx="32630" centery="32996" centerz="8" radius="1">
 		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="60" />
 	</monster>
-	<monster centerx="32809" centery="32996" centerz="8" radius="1">
-		<monster name="Water Elemental" x="0" y="-1" z="8" spawntime="60" />
+	<monster centerx="32754" centery="32996" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32633" centery="32997" centerz="8" radius="1">
 		<monster name="Water Elemental" x="-1" y="0" z="8" spawntime="60" />
@@ -75331,36 +75433,55 @@
 	<monster centerx="32683" centery="32997" centerz="8" radius="1">
 		<monster name="Quara Mantassin Scout" x="0" y="0" z="8" spawntime="60" />
 	</monster>
-	<monster centerx="32737" centery="32997" centerz="8" radius="1">
-		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="60" />
+	<monster centerx="32740" centery="32997" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="-1" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32794" centery="32997" centerz="8" radius="1">
-		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="60" />
+	<monster centerx="32746" centery="32997" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="0" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32721" centery="32998" centerz="8" radius="1">
-		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="60" />
+	<monster centerx="32750" centery="32997" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="-1" z="8" spawntime="15" />
+		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32748" centery="32998" centerz="8" radius="1">
-		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="60" />
-	</monster>
+	<monster centerx="32752" centery="32997" centerz="8" radius="1" />
 	<monster centerx="32593" centery="32999" centerz="8" radius="1">
 		<monster name="Quara Mantassin Scout" x="0" y="0" z="8" spawntime="60" />
 	</monster>
-	<monster centerx="32729" centery="32999" centerz="8" radius="1">
-		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="60" />
+	<monster centerx="32721" centery="32999" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32752" centery="32999" centerz="8" radius="1">
-		<monster name="Water Elemental" x="-1" y="0" z="8" spawntime="60" />
+	<monster centerx="32744" centery="32999" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="-1" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32798" centery="32999" centerz="8" radius="1">
-		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="60" />
+	<monster centerx="32748" centery="32999" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32614" centery="33000" centerz="8" radius="1">
 		<monster name="Quara Mantassin Scout" x="0" y="0" z="8" spawntime="60" />
 	</monster>
-	<monster centerx="32742" centery="33000" centerz="8" radius="1">
-		<monster name="Water Elemental" x="-1" y="0" z="8" spawntime="60" />
+	<monster centerx="32721" centery="33000" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="1" z="8" spawntime="15" />
 	</monster>
+	<monster centerx="32725" centery="33000" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="0" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32728" centery="33000" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32752" centery="33000" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32774" centery="33000" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="-1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32796" centery="33000" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="-1" z="8" spawntime="15" />
+		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32798" centery="33000" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32799" centery="33000" centerz="8" radius="1" />
 	<monster centerx="32147" centery="33001" centerz="8" radius="3">
 		<monster name="Scarab" x="1" y="-2" z="8" spawntime="90" />
 	</monster>
@@ -75376,29 +75497,53 @@
 	<monster centerx="32684" centery="33001" centerz="8" radius="1">
 		<monster name="Quara Mantassin Scout" x="1" y="0" z="8" spawntime="60" />
 	</monster>
+	<monster centerx="32722" centery="33001" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32747" centery="33001" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32798" centery="33001" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="15" />
+	</monster>
 	<monster centerx="32812" centery="33001" centerz="8" radius="1">
-		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="60" />
+		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32815" centery="33001" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="-1" z="8" spawntime="15" />
+		<monster name="Water Elemental" x="-1" y="1" z="8" spawntime="15" />
+		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32817" centery="33001" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32661" centery="33002" centerz="8" radius="1">
 		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="60" />
 	</monster>
-	<monster centerx="32744" centery="33002" centerz="8" radius="1">
-		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="60" />
+	<monster centerx="32751" centery="33002" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32777" centery="33002" centerz="8" radius="1">
-		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="60" />
+	<monster centerx="32779" centery="33002" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="15" />
 	</monster>
+	<monster centerx="32796" centery="33002" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32818" centery="33002" centerz="8" radius="1" />
 	<monster centerx="32530" centery="33003" centerz="8" radius="2">
 		<monster name="Tortoise" x="1" y="0" z="8" spawntime="90" />
 	</monster>
-	<monster centerx="32750" centery="33003" centerz="8" radius="1">
-		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="60" />
+	<monster centerx="32743" centery="33003" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32816" centery="33003" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32647" centery="33004" centerz="8" radius="1">
 		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="60" />
 	</monster>
-	<monster centerx="32796" centery="33004" centerz="8" radius="1">
-		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="60" />
+	<monster centerx="32775" centery="33004" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="-1" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32592" centery="33005" centerz="8" radius="1">
 		<monster name="Quara Mantassin Scout" x="0" y="0" z="8" spawntime="60" />
@@ -75407,17 +75552,28 @@
 		<monster name="Quara Mantassin Scout" x="0" y="0" z="8" spawntime="60" />
 	</monster>
 	<monster centerx="32721" centery="33005" centerz="8" radius="1">
-		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="60" />
+		<monster name="Water Elemental" x="0" y="-1" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32763" centery="33005" centerz="8" radius="1">
-		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="60" />
+	<monster centerx="32752" centery="33005" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32785" centery="33005" centerz="8" radius="1">
-		<monster name="Water Elemental" x="-1" y="-1" z="8" spawntime="60" />
+	<monster centerx="32761" centery="33005" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32813" centery="33005" centerz="8" radius="1">
-		<monster name="Water Elemental" x="-1" y="0" z="8" spawntime="60" />
+	<monster centerx="32764" centery="33005" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="-1" z="8" spawntime="15" />
 	</monster>
+	<monster centerx="32766" centery="33005" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="-1" z="8" spawntime="15" />
+		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32786" centery="33005" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="-1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32814" centery="33005" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="-1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32817" centery="33005" centerz="8" radius="1" />
 	<monster centerx="32520" centery="33006" centerz="8" radius="3">
 		<monster name="Thornback Tortoise" x="-2" y="-3" z="8" spawntime="90" />
 		<monster name="Tortoise" x="3" y="-2" z="8" spawntime="90" />
@@ -75428,6 +75584,16 @@
 	</monster>
 	<monster centerx="32667" centery="33006" centerz="8" radius="1">
 		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32721" centery="33006" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32766" centery="33006" centerz="8" radius="1" />
+	<monster centerx="32781" centery="33006" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32812" centery="33006" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="-1" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32501" centery="33007" centerz="8" radius="4">
 		<monster name="Thornback Tortoise" x="1" y="-2" z="8" spawntime="90" />
@@ -75445,20 +75611,14 @@
 	<monster centerx="32681" centery="33007" centerz="8" radius="1">
 		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="60" />
 	</monster>
-	<monster centerx="32754" centery="33007" centerz="8" radius="1">
-		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="60" />
-	</monster>
-	<monster centerx="32767" centery="33007" centerz="8" radius="1">
-		<monster name="Water Elemental" x="-1" y="0" z="8" spawntime="60" />
-	</monster>
-	<monster centerx="32774" centery="33007" centerz="8" radius="1">
-		<monster name="Water Elemental" x="0" y="-1" z="8" spawntime="60" />
+	<monster centerx="32776" centery="33007" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="-1" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32595" centery="33008" centerz="8" radius="1">
 		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="60" />
 	</monster>
 	<monster centerx="32719" centery="33008" centerz="8" radius="1">
-		<monster name="Water Elemental" x="-1" y="0" z="8" spawntime="60" />
+		<monster name="Water Elemental" x="-1" y="0" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32680" centery="33009" centerz="8" radius="1">
 		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="60" />
@@ -75466,11 +75626,16 @@
 	<monster centerx="32685" centery="33009" centerz="8" radius="1">
 		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="60" />
 	</monster>
-	<monster centerx="32781" centery="33009" centerz="8" radius="1">
-		<monster name="Water Elemental" x="-1" y="1" z="8" spawntime="60" />
-	</monster>
 	<monster centerx="32676" centery="33010" centerz="8" radius="1">
 		<monster name="Quara Hydromancer Scout" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32717" centery="33010" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="15" />
+		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32719" centery="33010" centerz="8" radius="1" />
+	<monster centerx="32782" centery="33010" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32611" centery="33011" centerz="8" radius="1">
 		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="60" />
@@ -75478,8 +75643,8 @@
 	<monster centerx="32641" centery="33011" centerz="8" radius="1">
 		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="60" />
 	</monster>
-	<monster centerx="32809" centery="33011" centerz="8" radius="1">
-		<monster name="Water Elemental" x="0" y="-1" z="8" spawntime="60" />
+	<monster centerx="32808" centery="33011" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32594" centery="33012" centerz="8" radius="1">
 		<monster name="Water Elemental" x="0" y="-1" z="8" spawntime="60" />
@@ -75487,8 +75652,11 @@
 	<monster centerx="32603" centery="33012" centerz="8" radius="1">
 		<monster name="Quara Pincher Scout" x="0" y="0" z="8" spawntime="60" />
 	</monster>
-	<monster centerx="32719" centery="33012" centerz="8" radius="1">
-		<monster name="Water Elemental" x="-1" y="-1" z="8" spawntime="60" />
+	<monster centerx="32718" centery="33012" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32809" centery="33012" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32607" centery="33013" centerz="8" radius="1">
 		<monster name="Quara Pincher Scout" x="0" y="0" z="8" spawntime="60" />
@@ -75499,73 +75667,127 @@
 	<monster centerx="32598" centery="33014" centerz="8" radius="1">
 		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="60" />
 	</monster>
-	<monster centerx="32810" centery="33014" centerz="8" radius="1">
-		<monster name="Water Elemental" x="-1" y="1" z="8" spawntime="60" />
+	<monster centerx="32737" centery="33014" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32808" centery="33014" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32809" centery="33014" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32604" centery="33015" centerz="8" radius="1">
 		<monster name="Quara Pincher Scout" x="0" y="0" z="8" spawntime="60" />
 	</monster>
-	<monster centerx="32731" centery="33016" centerz="8" radius="1">
-		<monster name="Water Elemental" x="-1" y="0" z="8" spawntime="60" />
+	<monster centerx="32735" centery="33016" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32807" centery="33016" centerz="8" radius="1">
-		<monster name="Water Elemental" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Water Elemental" x="-1" y="-1" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32741" centery="33017" centerz="8" radius="1">
-		<monster name="Water Elemental" x="-1" y="0" z="8" spawntime="60" />
+	<monster centerx="32731" centery="33017" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32723" centery="33018" centerz="8" radius="1">
-		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="60" />
+	<monster centerx="32740" centery="33017" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32724" centery="33018" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32738" centery="33018" centerz="8" radius="1">
-		<monster name="Water Elemental" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Water Elemental" x="-1" y="-1" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32765" centery="33018" centerz="8" radius="1">
-		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="60" />
+	<monster centerx="32741" centery="33018" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32766" centery="33018" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="-1" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32769" centery="33018" centerz="8" radius="1">
-		<monster name="Water Elemental" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Water Elemental" x="-1" y="1" z="8" spawntime="15" />
+		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32784" centery="33018" centerz="8" radius="1">
-		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="60" />
+	<monster centerx="32775" centery="33018" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32804" centery="33018" centerz="8" radius="1">
-		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="60" />
+	<monster centerx="32806" centery="33018" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32728" centery="33019" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="-1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32743" centery="33019" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32758" centery="33019" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32764" centery="33019" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="0" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32767" centery="33019" centerz="8" radius="1" />
+	<monster centerx="32782" centery="33019" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="1" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32789" centery="33019" centerz="8" radius="1">
-		<monster name="Water Elemental" x="0" y="-1" z="8" spawntime="60" />
-		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="60" />
+		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32791" centery="33019" centerz="8" radius="1" />
-	<monster centerx="32798" centery="33019" centerz="8" radius="1">
-		<monster name="Water Elemental" x="1" y="-1" z="8" spawntime="60" />
+	<monster centerx="32792" centery="33019" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="-1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32794" centery="33019" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="-1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32797" centery="33019" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32800" centery="33019" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="-1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32725" centery="33020" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="-1" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="32732" centery="33020" centerz="8" radius="1">
-		<monster name="Water Elemental" x="-1" y="1" z="8" spawntime="60" />
+		<monster name="Water Elemental" x="0" y="0" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32752" centery="33020" centerz="8" radius="1">
-		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="60" />
+	<monster centerx="32739" centery="33020" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="1" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32762" centery="33020" centerz="8" radius="1">
-		<monster name="Water Elemental" x="0" y="-1" z="8" spawntime="60" />
+	<monster centerx="32740" centery="33020" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32780" centery="33020" centerz="8" radius="1">
-		<monster name="Water Elemental" x="0" y="-1" z="8" spawntime="60" />
+	<monster centerx="32759" centery="33020" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="-1" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32727" centery="33021" centerz="8" radius="1">
-		<monster name="Water Elemental" x="1" y="-1" z="8" spawntime="60" />
+	<monster centerx="32777" centery="33020" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="0" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32737" centery="33021" centerz="8" radius="1">
-		<monster name="Water Elemental" x="-1" y="1" z="8" spawntime="60" />
+	<monster centerx="32784" centery="33020" centerz="8" radius="1">
+		<monster name="Water Elemental" x="0" y="-1" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32740" centery="33021" centerz="8" radius="1">
-		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="60" />
+	<monster centerx="32724" centery="33021" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="0" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32755" centery="33021" centerz="8" radius="1">
-		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="60" />
+	<monster centerx="32726" centery="33021" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="1" z="8" spawntime="15" />
 	</monster>
-	<monster centerx="32775" centery="33021" centerz="8" radius="1">
-		<monster name="Water Elemental" x="1" y="0" z="8" spawntime="60" />
+	<monster centerx="32756" centery="33021" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="-1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32761" centery="33021" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="-1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32779" centery="33021" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="-1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32783" centery="33022" centerz="8" radius="1">
+		<monster name="Water Elemental" x="-1" y="0" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32731" centery="33023" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="-1" z="8" spawntime="15" />
+	</monster>
+	<monster centerx="32785" centery="33023" centerz="8" radius="1">
+		<monster name="Water Elemental" x="1" y="-1" z="8" spawntime="15" />
 	</monster>
 	<monster centerx="10196" centery="10022" centerz="9" radius="1">
 		<monster name="Bog Raider" x="0" y="0" z="9" spawntime="90" />
@@ -75860,6 +76082,9 @@
 	</monster>
 	<monster centerx="32140" centery="30999" centerz="9" radius="3">
 		<monster name="Wailing Widow" x="2" y="-3" z="9" spawntime="90" />
+	</monster>
+	<monster centerx="32783" centery="30999" centerz="9" radius="3">
+		<monster name="Grim Reaper" x="0" y="-2" z="9" spawntime="90" />
 	</monster>
 	<monster centerx="33462" centery="30999" centerz="9" radius="1">
 		<monster name="Memory of an Ogre" x="0" y="0" z="9" spawntime="60" />
@@ -77007,6 +77232,9 @@
 		<monster name="Chakoya Windcaller" x="-1" y="2" z="9" spawntime="90" />
 		<monster name="Chakoya Tribewarden" x="2" y="2" z="9" spawntime="90" />
 	</monster>
+	<monster centerx="32787" centery="31074" centerz="9" radius="3">
+		<monster name="Grim Reaper" x="0" y="-2" z="9" spawntime="90" />
+	</monster>
 	<monster centerx="33891" centery="31074" centerz="9" radius="1">
 		<monster name="Turbulent Elemental" x="0" y="0" z="9" spawntime="60" />
 	</monster>
@@ -77025,6 +77253,9 @@
 		<monster name="Chakoya Toolshaper" x="1" y="-2" z="9" spawntime="90" />
 		<monster name="Chakoya Windcaller" x="1" y="-1" z="9" spawntime="90" />
 		<monster name="Chakoya Toolshaper" x="-1" y="0" z="9" spawntime="90" />
+	</monster>
+	<monster centerx="32792" centery="31075" centerz="9" radius="3">
+		<monster name="Grim Reaper" x="0" y="-2" z="9" spawntime="90" />
 	</monster>
 	<monster centerx="33075" centery="31075" centerz="9" radius="1">
 		<monster name="Draken Spellweaver" x="1" y="0" z="9" spawntime="90" />
@@ -100913,6 +101144,14 @@
 		<monster name="Tortoise" x="-2" y="3" z="9" spawntime="90" />
 		<monster name="Tortoise" x="1" y="5" z="9" spawntime="90" />
 	</monster>
+	<monster centerx="32643" centery="32969" centerz="9" radius="2">
+		<monster name="Massive Water Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Massive Water Elemental" x="1" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32655" centery="32970" centerz="9" radius="2">
+		<monster name="Massive Water Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Massive Water Elemental" x="1" y="0" z="9" spawntime="60" />
+	</monster>
 	<monster centerx="32091" centery="32973" centerz="9" radius="3">
 		<monster name="Skeleton" x="2" y="1" z="9" spawntime="90" />
 	</monster>
@@ -100937,6 +101176,10 @@
 		<monster name="Thornback Tortoise" x="-1" y="-2" z="9" spawntime="90" />
 		<monster name="Tortoise" x="1" y="0" z="9" spawntime="90" />
 		<monster name="Thornback Tortoise" x="-1" y="3" z="9" spawntime="90" />
+	</monster>
+	<monster centerx="32665" centery="32974" centerz="9" radius="2">
+		<monster name="Massive Water Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Massive Water Elemental" x="1" y="0" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="32408" centery="32975" centerz="9" radius="2">
 		<monster name="Thornback Tortoise" x="0" y="0" z="9" spawntime="90" />
@@ -100982,6 +101225,10 @@
 		<monster name="Thornback Tortoise" x="2" y="1" z="9" spawntime="90" />
 		<monster name="Thornback Tortoise" x="-2" y="3" z="9" spawntime="90" />
 	</monster>
+	<monster centerx="32628" centery="32979" centerz="9" radius="2">
+		<monster name="Massive Water Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Massive Water Elemental" x="1" y="0" z="9" spawntime="60" />
+	</monster>
 	<monster centerx="32098" centery="32980" centerz="9" radius="3">
 		<monster name="Skeleton" x="-1" y="3" z="9" spawntime="90" />
 	</monster>
@@ -100992,11 +101239,9 @@
 	<monster centerx="32196" centery="32980" centerz="9" radius="3">
 		<monster name="Crab" x="0" y="2" z="9" spawntime="90" />
 	</monster>
-	<monster centerx="32615" centery="32980" centerz="9" radius="1">
-		<monster name="Massive Water Elemental" x="0" y="0" z="9" spawntime="60" />
-	</monster>
-	<monster centerx="32625" centery="32980" centerz="9" radius="1">
-		<monster name="Massive Water Elemental" x="0" y="0" z="9" spawntime="60" />
+	<monster centerx="32617" centery="32980" centerz="9" radius="2">
+		<monster name="Massive Water Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Massive Water Elemental" x="1" y="0" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="32641" centery="32980" centerz="9" radius="1">
 		<monster name="Massive Water Elemental" x="0" y="0" z="9" spawntime="60" />
@@ -101017,12 +101262,20 @@
 	<monster centerx="32654" centery="32986" centerz="9" radius="1">
 		<monster name="Massive Water Elemental" x="0" y="0" z="9" spawntime="60" />
 	</monster>
+	<monster centerx="32683" centery="32986" centerz="9" radius="2">
+		<monster name="Massive Water Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Massive Water Elemental" x="1" y="0" z="9" spawntime="60" />
+	</monster>
 	<monster centerx="32098" centery="32987" centerz="9" radius="3">
 		<monster name="Skeleton" x="-2" y="-2" z="9" spawntime="90" />
 		<monster name="Skeleton" x="3" y="3" z="9" spawntime="90" />
 	</monster>
 	<monster centerx="32119" centery="32987" centerz="9" radius="3">
 		<monster name="Skeleton" x="-1" y="-2" z="9" spawntime="90" />
+	</monster>
+	<monster centerx="32590" centery="32987" centerz="9" radius="2">
+		<monster name="Massive Water Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Massive Water Elemental" x="1" y="0" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="32492" centery="32990" centerz="9" radius="3">
 		<monster name="Tortoise" x="3" y="-1" z="9" spawntime="90" />
@@ -101038,6 +101291,10 @@
 		<monster name="Thornback Tortoise" x="-2" y="-1" z="9" spawntime="90" />
 		<monster name="Tortoise" x="0" y="2" z="9" spawntime="90" />
 	</monster>
+	<monster centerx="32685" centery="32993" centerz="9" radius="2">
+		<monster name="Massive Water Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Massive Water Elemental" x="1" y="0" z="9" spawntime="60" />
+	</monster>
 	<monster centerx="32119" centery="32994" centerz="9" radius="3">
 		<monster name="Skeleton" x="-3" y="-3" z="9" spawntime="90" />
 		<monster name="Ghoul" x="-2" y="-2" z="9" spawntime="90" />
@@ -101047,11 +101304,31 @@
 	<monster centerx="32632" centery="32994" centerz="9" radius="1">
 		<monster name="Massive Water Elemental" x="0" y="0" z="9" spawntime="60" />
 	</monster>
-	<monster centerx="32618" centery="32997" centerz="9" radius="1">
-		<monster name="Massive Water Elemental" x="0" y="0" z="9" spawntime="60" />
+	<monster centerx="32619" centery="32996" centerz="9" radius="1">
+		<monster name="Massive Water Elemental" x="-1" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32680" centery="33001" centerz="9" radius="2">
+		<monster name="Massive Water Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Massive Water Elemental" x="1" y="0" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="32612" centery="33002" centerz="9" radius="1">
 		<monster name="Massive Water Elemental" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32650" centery="33002" centerz="9" radius="2">
+		<monster name="Massive Water Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Massive Water Elemental" x="1" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32669" centery="33002" centerz="9" radius="2">
+		<monster name="Massive Water Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Massive Water Elemental" x="1" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32624" centery="33003" centerz="9" radius="2">
+		<monster name="Massive Water Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Massive Water Elemental" x="1" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32594" centery="33004" centerz="9" radius="2">
+		<monster name="Massive Water Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Massive Water Elemental" x="1" y="0" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="32602" centery="33005" centerz="9" radius="1">
 		<monster name="Massive Water Elemental" x="0" y="0" z="9" spawntime="60" />
@@ -101059,10 +101336,34 @@
 	<monster centerx="32622" centery="33007" centerz="9" radius="1">
 		<monster name="Massive Water Elemental" x="0" y="0" z="9" spawntime="60" />
 	</monster>
+	<monster centerx="32636" centery="33008" centerz="9" radius="2">
+		<monster name="Massive Water Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Massive Water Elemental" x="1" y="0" z="9" spawntime="60" />
+	</monster>
 	<monster centerx="32499" centery="33010" centerz="9" radius="4">
 		<monster name="Thornback Tortoise" x="0" y="-4" z="9" spawntime="90" />
 		<monster name="Thornback Tortoise" x="-3" y="-1" z="9" spawntime="90" />
 		<monster name="Thornback Tortoise" x="3" y="2" z="9" spawntime="90" />
+	</monster>
+	<monster centerx="32678" centery="33010" centerz="9" radius="2">
+		<monster name="Massive Water Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Massive Water Elemental" x="1" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32655" centery="33012" centerz="9" radius="2">
+		<monster name="Massive Water Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Massive Water Elemental" x="1" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32669" centery="33015" centerz="9" radius="2">
+		<monster name="Massive Water Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Massive Water Elemental" x="1" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32633" centery="33019" centerz="9" radius="2">
+		<monster name="Massive Water Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Massive Water Elemental" x="1" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32648" centery="33019" centerz="9" radius="2">
+		<monster name="Massive Water Elemental" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Massive Water Elemental" x="1" y="0" z="9" spawntime="60" />
 	</monster>
 	<monster centerx="10273" centery="10150" centerz="10" radius="1">
 		<monster name="Carrion Worm" x="0" y="0" z="10" spawntime="90" />

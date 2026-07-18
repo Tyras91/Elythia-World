@@ -6,6 +6,9 @@
 	<npc centerx="32661" centery="31915" centerz="0" radius="1">
 		<npc name="Uzon Back" x="0" y="0" z="0" spawntime="60" />
 	</npc>
+	<npc centerx="32579" centery="31929" centerz="0" radius="1">
+		<npc name="Lukosch" x="0" y="-1" z="0" spawntime="60" />
+	</npc>
 	<npc centerx="32588" centery="31942" centerz="0" radius="1">
 		<npc name="Gewen" x="0" y="0" z="0" spawntime="60" />
 	</npc>
